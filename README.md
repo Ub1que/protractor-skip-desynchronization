@@ -2,7 +2,7 @@
 
 This plugin helps to switch default protractor and angular synchronization with our own plugin synchronization. What it does is very alike waitForAngular, but if we don't get synchronized in default amount of time (e.g. 15 sec) it just skips synchronization for the current promise. Before the next promises synchronization time will be less (e.g. 3 sec). But if we get synchronized before 3 sec it will switch to 15 sec again.
 
-More about how protractor synchronize with Angular[read here.](http://agibalov.io/2017/05/19/How-do-Protractor-and-Angular-synchronize/)
+More about how protractor synchronize with Angular [read here.](http://agibalov.io/2017/05/19/How-do-Protractor-and-Angular-synchronize/)
 
 ## Getting Started
 
@@ -12,7 +12,7 @@ More about how protractor synchronize with Angular[read here.](http://agibalov.i
 npm install protractor-skip-stability
 ```
 
-####Usage
+###Usage
 Add plugin into your config file (e.g. protractor.conf.js)
 ```
 exports.config = {
@@ -37,5 +37,5 @@ protractor.pluginSetSkipStability(true).
 
 ### License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
 
