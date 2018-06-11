@@ -1,0 +1,18 @@
+{
+  "name": "protractor-skip-desynchronization",
+  "version": "1.0.0",
+  "description": "Replace protractor default synchronization with function alike waitForAngular() which skips desynchronization in specific amount of time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "protractor",
+    "synchronization",
+    "desynchronization",
+    "waitForAngular",
+    "skipStability"
+  ],
+  "author": "Ivan Ladyha",
+  "license": "MIT"
+}
