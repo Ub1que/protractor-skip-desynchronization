@@ -1,4 +1,4 @@
-## Protractor-skip-stability
+## Protractor-skip-desynchronization
 
 This plugin helps to switch default protractor and angular synchronization with our own plugin synchronization. What it does is very alike waitForAngular, but if we don't get synchronized in default amount of time (e.g. 15 sec) it just skips synchronization for the current promise. Before the next promises synchronization time will be less (e.g. 3 sec). But if we get synchronized before 3 sec it will switch to 15 sec again.
 
@@ -9,15 +9,15 @@ More about how protractor synchronize with Angular [read here.](http://agibalov.
 ### Installing
 
 ```
-npm install protractor-skip-stability
+npm install protractor-skip-desynchronization
 ```
 
-###Usage
+### Usage
 Add plugin into your config file (e.g. protractor.conf.js)
 ```
 exports.config = {
     plugins: [{
-        package: 'protractor-skip-stability',
+        package: 'protractor-skip-desynchronization',
         defaultsSyncTimeout: 15,
         afterFailTimeout: 3,
         rootSelector: '[ng-app="myApp"]',
