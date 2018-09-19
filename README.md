@@ -6,12 +6,6 @@ More about how protractor synchronize with Angular [read here.](http://agibalov.
 
 ## Getting Started
 
-### Installing
-
-```
-npm install protractor-skip-desynchronization
-```
-
 ### Usage
 Add plugin into your config file (e.g. protractor.conf.js)
 ```
